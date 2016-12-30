@@ -1,5 +1,8 @@
 # ActiveRecordOrScope
 
+[![Build Status](https://travis-ci.org/jobteaser/active_record_or_scope.svg?branch=master)](https://travis-ci.org/jobteaser/active_record_or_scope)
+[![Code Climate](https://codeclimate.com/repos/58667f4a7b31a36aa70043b2/badges/2a5ab1c24ec5e2c9cb55/gpa.svg)](https://codeclimate.com/repos/58667f4a7b31a36aa70043b2/feed)
+
 This gem allows chaining ActiveRecord scopes with OR instead of the default AND
 
 The implementation is stolen from https://coderwall.com/p/lsdnsw/chain-rails-scopes-with-or
@@ -30,12 +33,6 @@ users = User.where_any(
 )
 ```
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/active_record_or_scope.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jobteaser/active_record_or_scope.
